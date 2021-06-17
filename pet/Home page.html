@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name = "viewpoint" content="width= device-width,initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/1a8a973b6e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Home page.css">
+    <title>六角宠物店</title>
+</head>
+
+<body>
+    <div class="bg-secondary py-2">
+        <div class="container text-right">
+            <a href="#" class="text-white"><i class="fab fa-weibo"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-facebook-square"></i></a>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="#">     
+           六角宠物店
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home page.html">首页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="mall.html">商城 <span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+              aria-haspopup="true" aria-expanded="false">
+                狗狗
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">狗狗狗粮</a>
+                <a class="dropdown-item" href="#">狗狗玩具</a>
+                <a class="dropdown-item" href="#">狗狗医疗</a>
+                <a class="dropdown-item" href="#">狗狗住所</a>
+              </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                  猫咪
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">猫猫零食</a>
+                    <a class="dropdown-item" href="#">猫猫医疗</a>
+                    <a class="dropdown-item" href="#">猫咪住所</a>
+                    <a class="dropdown-item" href="#">猫砂猫厕</a>
+                </div>
+              </li>
+              
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                  水族
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">鱼缸</a>
+                    <a class="dropdown-item" href="#">鱼饲料</a>
+                    <a class="dropdown-item" href="#">氧气泵</a>
+                    <a class="dropdown-item" href="#">狗杀菌灯</a>
+                </div>
+              </li>
+              
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                  爬虫
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">龟粮</a>
+                    <a class="dropdown-item" href="#">龟箱</a>
+                    <a class="dropdown-item" href="#">龟缸</a>
+                    <a class="dropdown-item" href="#">灯具</a>
+                </div>
+              </li>
+          </ul>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="请输入关键字" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+          </form>
+
+          <form class="form-inline my-2 my-lg-0">
+                <a href="#" class="btn btn-primay" data-toggle="modal" data-target="#loginModal">登入</a>
+                <a href="#" class="btn btn-primay" data-toggle="modal" data-target="#registerModel">注册</a>
+          </form>
+        </div>
+    </nav>
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item header-carousel-item bg-cover active" 
+                style="background-image: url(http://img.boqiicdn.com/Data/U/P/img5837591bfbb3dd49a.jpg);">
+                </div>
+
+                <div class="carousel-item header-carousel-item bg-cover" style="background-image: url(http://img.boqiicdn.com/Data/U/P/img361419910475.jpg);">
+                    <a href="#"><div class="carousel-caption d-none d-md-block px-3">
+                        <h3>征服喵星人——揭秘猫咪训练技巧</h3>
+                        <p>对于主人们来说，训练猫咪简直就是一个巨大的挑战，喵星人们总是以世界之王的姿态自居，
+                            于是主人不再是主人，一夜之间沦为猫奴，这哪里是训练猫咪，分明就是猫咪征服了人类啊！
+                            不过再强大的对手也有软肋，抓住了它们的软肋，训练就变得易如反掌啦！
+                        </p>
+                    </div></a>
+                </div>
+
+                <div class="carousel-item header-carousel-item bg-cover" style="background-image: url(http://img.boqiicdn.com/Data/U/P/img60841419910578.jpg);">
+                    <a href="#"><div class="carousel-caption d-none d-md-block px-3">
+                        <h3>宠物兔训练方法大集合</h3>
+                        <p>兔子是现今比较流行的一种家养宠物，主要品种有小小的侏儒兔、垂耳兔和巨大的巨型花明兔，
+                            大多数的宠物兔都是人为培育的，相比家兔或经济兔，宠物兔更聪明、更能适应家庭的生活，
+                            甚至一些兔子会像狗狗一样听话。所以很多饲养宠物兔的主人都会尝试做一点基本的训练，
+                            比如上厕所、回笼、接吻等等。下面介绍一下训练宠物兔的方法，保证宠物兔更适应人类的生活。
+                        </p>
+                   </div></a>
+                </div>
+            </div>
+
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+
+
+
+
+    <section class="bg-info text-white" >
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-4">
+                    <div class="mb-2"><i class="fas fa-dog fa-5x"></i></div>               
+                    <h5>狗一岁相当于人多少岁？</h5>
+                    <p>狗一岁相当于人多少岁？狗狗的实际寿命与品种有关系，小型犬种寿命比大型犬种更长，一岁时候已经完全成熟，差不多相当于人类的成年，
+                        一岁的时候小型品种相当于人类十五岁，大型品种相当于十四岁，随着年纪增长，小型品种会逐渐放缓时间，而大型品种则会加速。</p>
+                </div>
+                <div class="col-4">
+                    <div class="mb-2"><i class="fas fa-cat fa-5x"></i></div>               
+                    <h5>为什么会给猫咪断尾？</h5>
+                    <p>小编最近遇到一件比较生气的事情，因为自己家的猫咪生病了，所以去宠物医院治疗。到了宠物医院的时候见到一只大约3个月大的小猫咪，
+                        尾巴被人恶意弄断，已经感染溃烂，小猫咪也是奄奄一息的样子，幸好遇到好心人送到宠物医院去救治，也不知道究竟能不能治得好。</p>
+                </div>
+                <div class="col-4">
+                    <div class="mb-2"><i class="fas fa-spider fa-5x"></i></div>               
+                    <h5>被宠物蜘蛛咬了怎么办</h5>
+                    <p>很多时候我们也会听到被蜘蛛咬伤的事情。咬伤人的蜘蛛分为两种，一种是毒性非常的弱的，另一种则是有毒的。被毒性弱的蜘蛛咬伤后，
+                        处理起来为比较容易，但是被毒蜘蛛咬伤后，可能会出现严重的后果，甚至导致人们的死亡。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center my-3"></h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="mr-3"><a href="rdy.html"><i class="fas fa-fish fa-4x"></i></a></div>
+                        <div>
+                            <h3>推荐几种好看的热带鱼养。</h3>
+                            <p>小伙伴们养热带鱼无非看中两点，一种是好养，一种是颜值比较高，几乎你能想到的颜色，
+                                热带鱼都有。但是如果你想混养的话，还是要注意下不同的品种，以免鱼儿们造成死伤。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="mr-3"><a href="qw.html"><i class="fas fa-frog fa-4x"></i></a></div>
+                        <div>
+                            <h3>什么青蛙咬人-青蛙咬人吗?</h3>
+                            <p>其实动物要人是多方面的原因，本性决定了动物为什么咬人。攻击既包括了进食与自卫。比如狮子，它咬人或许是十分饥饿，另一方面，
+                                它咬人是认为这个人对它的生命构成威胁。青蛙没牙齿，它的捕猎方式是用舌头粘虫。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
